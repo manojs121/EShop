@@ -1,0 +1,12 @@
+create database shopdata;
+----------------------------------------------------
+use shopdata;
+----------------------------------------------------
+create table users
+(userid varchar(10) primary key,
+password varchar(10),
+username varchar(10),
+address varchar(15),
+mobile varchar(16),
+email varchar(15));
+----------------------------------------------------
