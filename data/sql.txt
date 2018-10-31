@@ -10,3 +10,10 @@ address varchar(15),
 mobile varchar(16),
 email varchar(15));
 ----------------------------------------------------
+
+create table products
+(pcode integer primary key,
+pname varchar(15),
+pdesc varchar(15),
+pcat varchar(15),
+price integer);
