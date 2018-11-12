@@ -3,7 +3,7 @@
         <h3>Welcome Buyer</h3>
         <hr>
         <pre>
-        <a href="">Explore-Store</a>
+        <a href="CategoryPage">Explore-Store</a>
         <a href="">Search-Product</a>
         <a href="">View-Cart</a>
         <a href="">Confirm-Order</a>

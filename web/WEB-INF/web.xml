@@ -12,6 +12,22 @@
         <servlet-name>SaveProduct</servlet-name>
         <servlet-class>SaveProduct</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CategoryPage</servlet-name>
+        <servlet-class>CategoryPage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CapitalPage</servlet-name>
+        <servlet-class>CapitalPage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductList</servlet-name>
+        <servlet-class>ProductList</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProductDetails</servlet-name>
+        <servlet-class>ProductDetails</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SaveUser</servlet-name>
         <url-pattern>/SaveUser</url-pattern>
@@ -23,6 +39,22 @@
     <servlet-mapping>
         <servlet-name>SaveProduct</servlet-name>
         <url-pattern>/SaveProduct</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CategoryPage</servlet-name>
+        <url-pattern>/CategoryPage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CapitalPage</servlet-name>
+        <url-pattern>/CapitalPage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductList</servlet-name>
+        <url-pattern>/ProductList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProductDetails</servlet-name>
+        <url-pattern>/ProductDetails</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
