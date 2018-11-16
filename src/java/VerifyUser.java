@@ -7,6 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 public class VerifyUser extends HttpServlet {
 
     Connection con;
@@ -53,6 +54,11 @@ public class VerifyUser extends HttpServlet {
                 ResultSet rs=ps.executeQuery();
                 boolean b=rs.next();
                 if(b){
+                    //storing the user id to session
+                    
+                    HttpSession session=request.getSession();
+                    session.setAttribute("userid", s1);
+                    
                     //out.println("Welcome Buyer");
                     response.sendRedirect("buyerpage.jsp");
                 }else{

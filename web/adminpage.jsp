@@ -1,6 +1,11 @@
+<%
+    session.setMaxInactiveInterval(600);
+    int n=session.getMaxInactiveInterval();
+%>
 <html>
     <body>
         <h3>Welcome Admin</h3>
+         <h5>If you remain idle for <%=n%> seconds, your session will expire</h5>
         <hr>
         <pre>
         <a href="pentry.jsp">Add-New-Product</a>
