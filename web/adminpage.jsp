@@ -1,5 +1,5 @@
 <%
-    session.setMaxInactiveInterval(600);
+    //session.setMaxInactiveInterval(600);
     int n=session.getMaxInactiveInterval();
 %>
 <html>

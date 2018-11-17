@@ -1,5 +1,5 @@
 <%
-  session.setMaxInactiveInterval(300);
+  //session.setMaxInactiveInterval(300);
   long val=session.getCreationTime();
   int ia=session.getMaxInactiveInterval();
   java.util.Date dt=new java.util.Date(val);
@@ -18,7 +18,7 @@
         <pre>
         <a href="CategoryPage">Explore-Store</a>
         <a href="">Search-Product</a>
-        <a href="">View-Cart</a>
+        <a href="DisplayCart">View-Cart</a>
         <a href="">Confirm-Order</a>
         <a href="EndSession">Logout</a>
         </pre>
