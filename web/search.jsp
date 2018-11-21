@@ -1,3 +1,4 @@
+<%@include file="header.jsp" %>
 <html>
     <body>
         <h3>Product-Search</h3>

@@ -1,7 +1,6 @@
+<%@include file="header.jsp" %>
 <html>
     <body>
-        <h3>Online Shop</h3>
-        <hr>
         <form action="VerifyUser">
             <pre>
             Userid      <input type="text" name="userid"/>

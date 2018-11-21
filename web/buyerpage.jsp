@@ -1,3 +1,4 @@
+<%@include file="header.jsp" %>
 <%
   //session.setMaxInactiveInterval(300);
   long val=session.getCreationTime();
