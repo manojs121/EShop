@@ -19,6 +19,7 @@
         <pre>
         <a href="CategoryPage">Explore-Store</a>
         <a href="search.jsp">Search-Product</a>
+        <a href="showall.jsp">View-All-Products</a>
         <a href="DisplayCart">View-Cart</a>
         <a href="">Confirm-Order</a>
         <a href="EndSession">Logout</a>
